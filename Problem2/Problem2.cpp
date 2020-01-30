@@ -1,9 +1,20 @@
+/*
+Moises Lopez
+229564
+molopez@chapman.edu
+CPSC 231-02
+Assignment 1
+
+This program will read whther a meeting exceeds room capacity.
+
+*/
+
 #include <iostream>
 
 using namespace std;
 int main(int argc, char **argv){
 
-  //member variables
+  //local variables
     unsigned int roomCapacity;
     unsigned int roomAttendance;
     unsigned int spotsRemaining;
@@ -13,6 +24,7 @@ int main(int argc, char **argv){
     cout << "How many people are in the room?: " << endl;
     cin >> roomAttendance;
 
+    //if-else comparing room capacity and attendance
     if(roomAttendance > roomCapacity){
        cout << "The meeting cannot be held as planned due to fire regulations." << endl;
        spotsRemaining = roomAttendance - roomCapacity;
