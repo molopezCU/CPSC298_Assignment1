@@ -2,10 +2,10 @@
 Moises Lopez
 229564
 molopez@chapman.edu
-CPSC 231-02
+CPSC 298-01
 Assignment 1
 
-This program will read whther a meeting exceeds room capacity.
+This program will determine whether or not a meeting exceeds room capacity.
 
 */
 
@@ -36,7 +36,5 @@ int main(int argc, char **argv){
       spotsRemaining = roomCapacity - roomAttendance;
       cout << spotsRemaining << ": person(s) can be addded to the meeting before violating fire safety law." << endl;
     }
-
   return 0;
-
 }
