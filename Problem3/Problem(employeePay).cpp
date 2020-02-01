@@ -1,6 +1,6 @@
 /*
 Moises Lopez
-229564
+2297564
 molopez@chapman.edu
 CPSC 298-01
 Assignment 1
@@ -41,7 +41,7 @@ int main(int argc, char **argv){
     cout << "Federal Income deduction: -$" << fedIncome << endl;
 
     stateIncome = stateIncome * grossPay;
-    cout << "State Income deduction: -$" <<fixed << setprecision(2) << stateIncome << endl;
+    cout << "State Income deduction: -$" << fixed << setprecision(2) << stateIncome << endl;
 
     cout << "Weekly medical bill deduction: -$" << medicalBill << endl;
 
